@@ -79,7 +79,7 @@ end
 end
 
 //Demodulador (Parameter = 200MHz/SinalFreq - 2)(SinalFreq = AstavelFreq/2)--------------------------------------
-//Demodulador DemodVPPM(clk_200, inputRead, 32'd38, dataRead);
+Demodulador DemodVPPM(clk_200, inputRead, 32'd38, dataRead);
 DemodComFreq #(4'd7)DemodVPPMComFreq(clk_200, inputRead, freqAvailable, freqParam, dataRead);
 //---------------------------------------------------------------------------------------------
 
