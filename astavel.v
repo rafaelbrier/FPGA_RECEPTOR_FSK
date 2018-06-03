@@ -1,10 +1,7 @@
 module astavel
-#(
-	parameter C = 25'd10
-)	
-
 (
 	input  clk,	
+	input [31:0]C,
 	output reg clk_out	
 );
 
